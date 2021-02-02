@@ -1,0 +1,133 @@
+﻿
+<!DOCTYPE html>
+
+<html lang="ru" class="js">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="author" content="Nvuti">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="favicon.png"><!-- Site Title  -->
+    <title>Nvuti.uno - проверка честности игры</title><!-- Vendor Bundle CSS -->
+    <link rel="stylesheet" href="assets/vendor.bundle.css">
+    <link rel="stylesheet" href="assets/loader-0.css">
+    <link rel="stylesheet" href="assets/style.css" id="layoutstyle">
+    <link rel="stylesheet" href="assets/datatables.min.css">
+    <script src="assets/jquery-latest.min.js"></script>
+    <script src="assets/odometr.js"></script>
+    <script src="assets/js.cookie.js"></script>
+    
+<script async="" src='/cdn-cgi/bm/cv/669835187/api.js'></script></head>
+
+<body class="page-user no-touch">
+
+    <div class="topbar-wrap" style="padding-top: 0px;">
+        <div class="topbar is-sticky">
+            <div class="container">
+                <div class="">
+                    <style>
+                    @media (max-width: 991px) {
+                        .desktop-nav{
+                            margin-top: -55px;
+                        }
+                        
+                    }
+                    </style>
+                    <ul class="topbar-nav d-lg-none">
+                        <li class="topbar-nav-item relative"><a class="toggle-nav" href="">
+                                <div class="toggle-icon"><span class="toggle-line"></span><span class="toggle-line"></span><span class="toggle-line"></span><span class="toggle-line"></span></div>
+                            </a></li>
+                    </ul>  
+                   <center class="desktop-nav" style="font-weight: 600;padding: 5px;color: #fff;font-size: 25px;">boost x</center>
+                </div>
+            </div><!-- .container -->
+        </div><!-- .topbar -->
+        <div class="navbar">
+            <div class="container">
+                
+                <div class="navbar-innr">
+                    
+                    <ul class="navbar-menu">
+                        <li><a href="index.html">Главная</a></li>
+                        <li class="active"><a href="check.php.html">Честная игра</a></li>
+                        <li><a href="faq.php.html">FAQ</a></li>
+                        <li><a href="support.php.html">Контакты</a></li>
+                        <li><a href="https://nvuti.uno/withdraws.php">Выплаты</a></li>
+
+                    </ul>
+                   <ul class="navbar-btns">
+                        <li><a href="https://vk.com/public_nvuti" target="_blank" class="btn btn-sm btn-outline btn-light"><em style="color: #3b5998;" class="fab fa-vk"></em><span>Вконтакте</span></a></li>
+                    </ul>
+                </div><!-- .navbar-innr -->
+            </div><!-- .container -->
+        </div><!-- .navbar -->
+    </div><!-- .topbar-wrap -->
+<div class="page-content">
+    <div class="container">
+        <div class="card content-area">
+            <div class="card-innr">
+                <div class="card-head">
+                    <h4 class="card-title card-title-lg">Абсолютно честно</h4>
+                </div>
+                <div class="card-text">
+                    <p>Перед каждой игрой генерирутеся строка <a href="wiki/SHA-2.html" target="_blank">алгоритмом SHA-512 </a> в которой содержится <a href="wiki/Соль_(криптография).html" target="_blank">соль</a> и победное число (от 0 до 999999). Можно сказать, что перед Вами зашифрованный исход данной игры. Метод гарантирует <b>100% честность</b>, так как результат игры Вы видите заранее, а при изменении победного числа приведет к изменению Hash.</p>
+
+                                                    Проверяйте самостоятельно:
+                                                    <ul>
+                                                        <li>Скоприруйте Hash до начала игры</li>
+                                                        <li>После окончания нажмите <code class="highlighter-rouge">"Проверить игру"</code></li>
+                                                        <li>Откроется окно с результатом</li>
+                                                        <li>Скопируйте вручную поля Salt1, Number (Победное число), Salt2 или нажмите кнопку <code class="highlighter-rouge">"Скопировать"</code></li>
+                                                        <li>Вставьте в любой независимый SHA-512 генератор (Например: <a href="online-tools/sha512.html" target="_blank">Ссылка 1</a> <a href="hash/sha512.html" target="_blank">Ссылка 2</a> <a href="sha512-hash-generator/index.htm" target="_blank">Ссылка 3</a>)</li>
+                                                        <li>Hash должен совпадать c Hash до начала игры</li>
+                                                    </ul>
+                    <hr>
+                                                    Например:
+                                                    <ul>
+                                                        <li>Hash до начала игры: cdbe74ade59f5b8e3372c1e107ca8d343da9efa1a173ba6bc678daa28b586b25a7c2e39a71badf7f00e04b5c1dbc43532b92a1f2913b0540f490968d7ce883fe </li>
+                                                        <li>После окончания нажали на <code class="highlighter-rouge">"Проверить игру"</code>, открылось окно</li>
+                                                        <li>Копируем значения Salt1, Number (Победное число), Salt2</li>
+                                                        <li>Получаем строку <code class="highlighter-rouge">8{93mW8huq|995544|a5cm28bjA0</code></li>
+                                                        <li>Вставляем строку в <a href="online-tools/sha512.html" target="_blank">генератор</a> </li>
+                                                        <li>Получили hash как и до начала игры</li>
+
+                                                    </ul>
+                </div>
+            </div>
+        </div><!-- .card -->
+    </div><!-- .container -->
+</div>
+<div class="footer-bar">
+    <div class="container">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-md-12">
+                <ul class="footer-links">
+                    <li><a href="terms.php.html">Пользовательское соглашение</a></li>
+                    <li><a href="policy.php.html">Политика конфеденциальности</a></li>
+                </ul>
+            </div><!-- .col -->
+            <!-- .col -->
+        </div><!-- .row -->
+    </div><!-- .container -->
+</div>
+
+
+<script src="assets/jquery.bundle.js"></script>
+<script src="assets/script.js"></script>
+<script>
+    
+    var jgjger = setInterval(function() {
+  console.log("%cОстановитесь!","color: red; font-size: 42px; font-weight: 700"),console.log("%cЕсли кто-то сказал вам, что вы можете скопировать и вставить что-то здесь, то это мошенничество, которое даст злоумышленнику доступ к вашему аккаунту.","font-size: 20px;");
+  
+}, 2000);
+
+setTimeout(function() {
+  clearInterval(jgjger);
+  console.log("%cОстановитесь!","color: red; font-size: 42px; font-weight: 700"),console.log("%cЕсли кто-то сказал вам, что вы можете скопировать и вставить что-то здесь, то это мошенничество, которое даст злоумышленнику доступ к вашему аккаунту.","font-size: 20px;");
+  
+}, 30000);
+</script>
+
+<script type="text/javascript">(function(){window['__CF$cv$params']={r:'61b50c9928842b95',m:'110336f4a71a7bbbac45d2f4e49020289560aae0-1612280830-1800-Aaf16SLceZUwryu4xs1J42sePsibuP3Vu1zaOtOchPsW3RxZ68FALE2FZMc+IGbSGBZMgRw37JrFTxSevGmttUq1xWOMT7GY+rNkiLkXBTLPg8QUf3HFiT/cRm39+j9JEw==',s:[0x7604ef4502,0x7b19d29b3e],}})();</script></body>
+
+</html>

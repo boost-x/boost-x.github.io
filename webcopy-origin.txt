@@ -1,0 +1,124 @@
+Uri: https://nvuti.uno/
+File Name: C:\Downloaded Web Sites\nvuti.uno\index.htm
+Content Type: text/html
+
+Uri: https://nvuti.uno/favicon.png
+File Name: C:\Downloaded Web Sites\nvuti.uno\favicon.png
+Content Type: image/png
+
+Uri: https://nvuti.uno/assets/vendor.bundle.css
+File Name: C:\Downloaded Web Sites\nvuti.uno\assets\vendor.bundle.css
+Content Type: text/css
+
+Uri: https://nvuti.uno/assets/loader-0.css
+File Name: C:\Downloaded Web Sites\nvuti.uno\assets\loader-0.css
+Content Type: text/css
+
+Uri: https://nvuti.uno/assets/style.css
+File Name: C:\Downloaded Web Sites\nvuti.uno\assets\style.css
+Content Type: text/css
+
+Uri: https://nvuti.uno/assets/datatables.min.css
+File Name: C:\Downloaded Web Sites\nvuti.uno\assets\datatables.min.css
+Content Type: text/css
+
+Uri: https://nvuti.uno/check.php
+File Name: C:\Downloaded Web Sites\nvuti.uno\check.php.html
+Content Type: text/html
+
+Uri: https://nvuti.uno/faq.php
+File Name: C:\Downloaded Web Sites\nvuti.uno\faq.php.html
+Content Type: text/html
+
+Uri: https://nvuti.uno/support.php
+File Name: C:\Downloaded Web Sites\nvuti.uno\support.php.html
+Content Type: text/html
+
+Uri: https://nvuti.uno/terms.php
+File Name: C:\Downloaded Web Sites\nvuti.uno\terms.php.html
+Content Type: text/html
+
+Uri: https://nvuti.uno/policy.php
+File Name: C:\Downloaded Web Sites\nvuti.uno\policy.php.html
+Content Type: text/html
+
+Uri: https://nvuti.uno/assets/jquery-latest.min.js
+File Name: C:\Downloaded Web Sites\nvuti.uno\assets\jquery-latest.min.js
+Content Type: application/javascript
+
+Uri: https://nvuti.uno/assets/odometr.js
+File Name: C:\Downloaded Web Sites\nvuti.uno\assets\odometr.js
+Content Type: application/javascript
+
+Uri: https://nvuti.uno/assets/js.cookie.js
+File Name: C:\Downloaded Web Sites\nvuti.uno\assets\js.cookie.js
+Content Type: application/javascript
+
+Uri: https://www.google.com/recaptcha/api.js?onload=renderRecaptchas&render=explicit
+File Name: C:\Downloaded Web Sites\nvuti.uno\recaptcha\api.js
+Content Type: text/javascript
+
+Uri: https://nvuti.uno/assets/card.png
+File Name: C:\Downloaded Web Sites\nvuti.uno\assets\card.png
+Content Type: image/png
+
+Uri: https://nvuti.uno/assets/fk-logo.png
+File Name: C:\Downloaded Web Sites\nvuti.uno\assets\fk-logo.png
+Content Type: image/png
+
+Uri: https://nvuti.uno/assets/pa.png
+File Name: C:\Downloaded Web Sites\nvuti.uno\assets\pa.png
+Content Type: image/png
+
+Uri: https://i.ibb.co/GWjhQpt/133.png
+File Name: C:\Downloaded Web Sites\nvuti.uno\GWjhQpt\133.png
+Content Type: image/png
+
+Uri: https://nvuti.uno/assets/jquery.bundle.js
+File Name: C:\Downloaded Web Sites\nvuti.uno\assets\jquery.bundle.js
+Content Type: application/javascript
+
+Uri: https://nvuti.uno/assets/datatables.min.js
+File Name: C:\Downloaded Web Sites\nvuti.uno\assets\datatables.min.js
+Content Type: application/javascript
+
+Uri: https://nvuti.uno/assets/script.js
+File Name: C:\Downloaded Web Sites\nvuti.uno\assets\script.js
+Content Type: application/javascript
+
+Uri: https://nvuti.uno/fonts/themify.woff?-fvbane
+File Name: C:\Downloaded Web Sites\nvuti.uno\fonts\themify.woff
+Content Type: application/font-woff
+
+Uri: https://nvuti.uno/fonts/fa-brands-400.woff
+File Name: C:\Downloaded Web Sites\nvuti.uno\fonts\fa-brands-400.woff
+Content Type: application/font-woff
+
+Uri: https://nvuti.uno/fonts/fa-solid-900.woff
+File Name: C:\Downloaded Web Sites\nvuti.uno\fonts\fa-solid-900.woff
+Content Type: application/font-woff
+
+Uri: https://nvuti.uno/fonts/ikon.ttf?q3pyw5
+File Name: C:\Downloaded Web Sites\nvuti.uno\fonts\ikon.ttf
+Content Type: application/font-sfnt
+
+Uri: https://ru.wikipedia.org/wiki/SHA-2
+File Name: C:\Downloaded Web Sites\nvuti.uno\wiki\SHA-2.html
+Content Type: text/html
+
+Uri: https://ru.wikipedia.org/wiki/Соль_(криптография)
+File Name: C:\Downloaded Web Sites\nvuti.uno\wiki\Соль_(криптография).html
+Content Type: text/html
+
+Uri: https://emn178.github.io/online-tools/sha512.html
+File Name: C:\Downloaded Web Sites\nvuti.uno\online-tools\sha512.html
+Content Type: text/html
+
+Uri: https://passwordsgenerator.net/sha512-hash-generator/
+File Name: C:\Downloaded Web Sites\nvuti.uno\sha512-hash-generator\index.htm
+Content Type: text/html
+
+Uri: https://md5calc.com/hash/sha512
+File Name: C:\Downloaded Web Sites\nvuti.uno\hash\sha512.html
+Content Type: text/html
+
