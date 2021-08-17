@@ -1,0 +1,47 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<!--
+Inspired by The Colour Clock by Jack Hughes: http://thecolourclock.co.uk
+ 
+This implementation is in HTML instead of Flash. 
+It also has less features and design, but with a nice new feature: 
+Favicon. 
+Improved the favicon code thanks to http://mrcoles.com/blog/making-images-byte-by-byte-javascript/
+--> 
+<link rel="shortcut icon" type="image/x-icon"> 
+<title>Colour Clock</title> 
+<style> 
+title{position:absolute;color:#fff;font:80px/80px Helvetica,Sans-Serif;text-align:center;height:80px;width:320px;top:50%;left:50%;margin:-40px 0 0 -160px;}
+head,title{display:block;}
+html{-webkit-transition: background-color 1s;-moz-transition: all 1s ease-in-out;-o-transition: all 1s ease-in-out;}
+</style> 
+<script>
+function $(q){return document.querySelector(q)}
+String.prototype.r=function(i){return new Array(++i).join(this)}
+function getFavicon(r,g,b){
+  var x3='\0\0\0',
+    file=btoa('BM'+'\xE6\x1D'+x3+x3+'6'+x3+'('+x3+'2'+x3+'2'+x3+
+    '\1\0\x18'+x3+'\0\0\xB0\x1D\0\0\x13\x0B\0\0\x13\x0B'+'\0'.r(10)+
+    (String.fromCharCode(b,g,r).r(50)+'\0\0').r(50)
+  );
+  return 'data:image/x-icon;base64,'+file;
+};
+function t2hex(d){
+  var f=Math.floor;
+  return [f(11.1*d[0]),f(4.33*d[1]),f(4.33*d[2])];
+}
+function t2digit(d){
+  function z(n){var p=(n<10)?'0':'';return p+n};
+  return [z(d[0]),z(d[1]),z(d[2])];
+}
+function tick(){
+  var d=new Date(),dd=[d.getHours(),d.getMinutes(),d.getSeconds()],t=t2hex(dd);
+  document.title=t2digit(dd).join(':');
+  $('html').style.cssText='background:rgb('+t.join(',')+')';
+  $('link').setAttribute('href',getFavicon(t[0],t[1],t[2]));
+}
+window.onload=function(){
+  tick();setTimeout(function(){setInterval(tick, 1e3)},1e3-new Date().getMilliseconds());
+}
+</script>
